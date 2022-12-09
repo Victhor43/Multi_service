@@ -1,0 +1,95 @@
+header {
+    background-color: #44B3E2;
+}
+
+.boxHead {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 5px solid #E27344;
+}
+
+.boxHead img {
+    width: 200px;
+    margin: 20px 0px 20px 100px;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 30px 0px 0px;
+    border: 3px solid #E27344;
+    border-radius: 15px;
+    padding: 7.5px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #E27344;
+    color: antiquewhite;
+}
+
+nav li:hover {
+    border-color: yellow;
+    background-color: #E27344;
+    font-size: 25px;
+}
+
+body {
+    background-color: #225971;
+}
+
+.imgPrincipal {
+    background-color: #E27344;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.imgPrincipal img {
+    width: 25%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.imgPrincipal img:hover {
+    filter: brightness(100%);
+}
+
+.quienesSomos {
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.quienesSomos h2 {
+    margin: 15px auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: antiquewhite;
+    text-decoration: underline #E27344;
+}
+
+.quienesSomos img {
+    width: 200px;
+    margin: auto auto auto 20px;
+    float: left;
+}
+
+.quienesSomos p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin: 10px;
+    color: antiquewhite;
+}
